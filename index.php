@@ -1,0 +1,43 @@
+<?php require_once('asessionlink.php'); ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" /> 
+	<title>Login | School Portal</title> 
+	
+	<link rel="stylesheet" href="./css/reset.css" type="text/css" media="screen" title="no title" />
+	<link rel="stylesheet" href="./css/text.css" type="text/css" media="screen" title="no title" />
+	<link rel="stylesheet" href="./css/form.css" type="text/css" media="screen" title="no title" />
+	<link rel="stylesheet" href="./css/buttons.css" type="text/css" media="screen" title="no title" />
+	<link rel="stylesheet" href="./css/login.css" type="text/css" media="screen" title="no title" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head> 
+ 
+<body> 
+
+<div id="login">
+	<h1>Dashboard</h1>
+	<div id="login_panel">
+		<form action="login.php" method="post" accept-charset="utf-8" />		
+			<div class="login_fields">
+				<div class="field">
+					<label for="email">Admission Number </label>
+					<input type="text" name="admissionno" value="" id="admissionno" tabindex="1" />		
+				</div>
+				
+				<div class="field">
+					<label for="password">Card Number <small><a href="">No Card?</a></small></label>
+					<input type="text" name="cardno" value="" id="cardno" tabindex="2" />			
+				</div>
+			</div> <!-- .login_fields -->
+			
+			<div class="login_actions">
+				<button type="submit" class="btn btn-orange" tabindex="3">Login</button>
+			</div>
+		</form>
+	</div> <!-- #login_panel -->		
+</div> <!-- #login -->
+
+</body> 
+ 
+</html>

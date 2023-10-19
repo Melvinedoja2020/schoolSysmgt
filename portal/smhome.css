@@ -1,0 +1,52 @@
+/*#################################################################################### 
+THIS SCRIPT WAS WRITTEN FOR SCHOOL MANAGER EDUCATION SOFTWARE BY
+DEVELOPER'S NAME: OBI JOHN COLLINS
+ADDRESS: 11 ONNE ROAD, GRA PHASE 2, PORT HARCOURT, NIGERIA 
+PHONE: +234(0)8079797311, 07032628356, 07042412136, 08098022853.
+WEBSITE: WWW.SPTECHNIGERIA.COM
+#####################################################################################*/
+.login {
+	margin:0 0 0 70px;
+	padding:0;
+	background:url(login_button.gif) no-repeat;
+	text-transform:uppercase;
+	font-family:Arial, Helvetica, sans-serif;
+	width:50px;
+	height:31px;
+	border:0;
+	font-size:8px;
+}
+.loginx {
+	margin:0 0 0 70px;
+	padding:0;
+	background:url(login_buttonx.gif) no-repeat;
+	text-transform:uppercase;
+	font-family:Arial, Helvetica, sans-serif;
+	width:84px;
+	height:31px;
+	border:0;
+	font-size:10.5pt;
+	font-weight:bold;
+}
+.login2 {
+	margin:0px;
+	padding:0;
+	background:url(login_button.gif) no-repeat;
+	text-transform:uppercase;
+	font-family:Arial, Helvetica, sans-serif;
+	width:50px;
+	height:25px;
+	border:0;
+	font-size:8px;
+}
+img {
+border: 0px;
+}
+.pstyle {
+font-family: tahoma;
+color:#990000;
+font-size: 12px;
+}
+/* ############################################## 
+STRICTLY FOR SCHOOL MANAGER EDUCATIONAL SOFTWARE
+################################################*/
